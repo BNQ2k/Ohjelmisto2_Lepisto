@@ -1,31 +1,35 @@
 <!DOCTYPE html>
 <html lang="fi">
 <head>
-    <meta charset="UTF-8">
-    <title>Capybara Koti</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Metropolia - Products</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
+  <header>
+    <h1>Metropolia</h1>
+    <img src="https://via.placeholder.com/800x200/003366/fff?text=METROPOLIA" alt="Header">
+    <p>Karamalmin kampus – Espoo – HTML+CSS Tehtävä</p>
+  </header>
 
-    <header class="header-nav">
-        <a href="index.html">Koti</a>
-        <a href="html1.html">Tuotteet</a>
-        <a href="html2.html">Yhteystiedot</a>
-    </header>
+  <nav>
+    <span>Logo</span>
+    <a href="index.html">Home</a>
+    <a href="index.html#products">Products</a>
+    <a href="contact.html">Contact</a>
+  </nav>
 
-    <div class="container">
-        <h1>Tervetuloa Rauhan Alueelle</h1>
-        <p>Capybara on sosiaalinen jyrsijä, joka ilmentää rauhallisuutta ja yhteisöllisyyttä. Ne muistuttavat meitä hidastamaan tahtia ja nauttimaan pienistä hetkistä. Tällä sivustolla juhlistamme tätä filosofiaa.</p>
-
-        <figure>
-            <img src="img/capybara_home.jpg" alt="Rauhallinen Capybara luonnossa" class="content-img">
-            <figcaption>Kuva: The owners Melanie and Richard let the giant guinea pig, known as a capybara, sleep in their bed.Picture: Barcroft CREDIT: Barcroft
-</figcaption>
-        </figure>
-
-        <h2>Capybaran Elämäntapa</h2>
-        <p>Capybara-filosofia opettaa meille rentoutumista ja sosiaalisuutta, mikä näkyy kaikessa toiminnassamme. Siirry Tuotteet-sivulle nähdäksesi, miten voit tuoda tätä tyyneyttä omaan elämääsi.</p>
+  <main id="products">
+    <img src="https://via.placeholder.com/1200x300/0066cc/fff?text=KURSSIT+JA+TAPAHTUMAT" alt="Hero">
+    <div class="grid">
+      <div class="box"><h3>Web Design</h3><img src="https://via.placeholder.com/300x150/ccc/fff?text=IMG"><p>HTML, CSS, JS</p></div>
+      <div class="box"><h3>UX/UI</h3><img src="https://via.placeholder.com/300x150/ccc/fff?text=IMG"><p>Figma, Prototyping</p></div>
+      <div class="box"><h3>DevOps</h3><img src="https://via.placeholder.com/300x150/ccc/fff?text=IMG"><p>Docker, Git</p></div>
     </div>
+  </main>
 
+  <footer>&copy; 2025 @BNQcrypto | Metropolia Karamalmi</footer>
 </body>
 </html>
