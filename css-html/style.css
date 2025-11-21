@@ -8,5 +8,13 @@ nav a, nav span { color:#003366; text-decoration:none; padding:6px 12px; backgro
 .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:15px; margin:15px 0; }
 .box h3 { color:#0066cc; margin-bottom:6px; }
 footer { font-size:0.9em; color:#6c757d; }
+.products .card img {
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
+  background: #f1f1f1;
+  padding: 5px;
+  border-radius: 6px;
+}
 
-/* OK */
+/* OK!! */
