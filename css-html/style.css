@@ -2,6 +2,22 @@
 body { font-family:'Roboto',sans-serif; background:#f8f9fa; color:#212529; line-height:1.5; padding:10px; }
 header, nav, .box, main, footer { margin:10px 0; padding:15px; background:#e9ecef; border-radius:6px; text-align:center; }
 header h1 { color:#003366; font-size:2rem; }
+.header-with-logo {
+    position: relative;
+    padding-top: 20px;
+}
+.site-logo {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    z-index: 10;
+}
+.site-logo img {
+    width: 90px;
+    height: 90px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
 img { max-width:100%; height:auto; margin:8px 0; border-radius:4px; }
 nav { display:flex; justify-content:center; gap:15px; flex-wrap:wrap; font-weight:bold; }
 nav a, nav span { color:#003366; text-decoration:none; padding:6px 12px; background:#ced4da; border-radius:4px; }
@@ -17,4 +33,4 @@ footer { font-size:0.9em; color:#6c757d; }
   border-radius: 6px;
 }
 
-/* OK!! */
+/* done!! */
